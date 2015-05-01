@@ -1,0 +1,24 @@
+﻿<metadata>
+
+	<remove-node path="/api/package[@name='com.google.android.exoplayer.chunk.parser.webm']/class[@name='WebmExtractor.InnerEbmlEventHandler']" />
+	<remove-node path="/api/package[@name='com.google.android.exoplayer.hls.parser']/class[@name='TsExtractor']" />
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.chunk']/class[@name='Format.DecreasingBandwidthComparator']/method[@name='compare']/parameter" name="type">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.hls']/class[@name='HlsMediaPlaylist.Segment']/method[@name='compareTo']/parameter" name="type">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.hls']/class[@name='Variant.DecreasingBandwidthComparator']/method[@name='compare']/parameter" name="type">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.metadata']/class[@name='Id3Parser']/method[@name='parse']" name="return">java.lang.Object</attr>
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.smoothstreaming']/class[@name='SmoothStreamingManifestParser.ProtectionElementParser']/method[@name='build']" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.smoothstreaming']/class[@name='SmoothStreamingManifestParser.SmoothStreamMediaParser']/method[@name='build']" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.smoothstreaming']/class[@name='SmoothStreamingManifestParser.StreamElementParser']/method[@name='build']" name="visibility">protected</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.smoothstreaming']/class[@name='SmoothStreamingManifestParser.TrackElementParser']/method[@name='build']" name="visibility">protected</attr>
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.text.ttml']/class[@name='TtmlNode']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.text.webvtt']/class[@name='WebvttParser']/method[@name='parse']" name="return">com.google.android.exoplayer.text.Subtitle</attr>
+
+	<attr path="/api/package[@name='com.google.android.exoplayer.upstream.cache']/class[@name='CacheSpan']/method[@name='compareTo']/parameter[@name='p0']" name="type">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.google.android.exoplayer.upstream.cache']/class[@name='LeastRecentlyUsedCacheEvictor']/method[@name='compare']/parameter" name="type">java.lang.Object</attr>
+
+</metadata>
